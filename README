@@ -1,7 +1,18 @@
-Scanner de puertos en Perl
+Ports-Scanner en Perl
 --------------------
 Autor: Brian Stanley
 ---------------------
-Estado: V1 funcionando ( en desarrollo)
----------------------
-Características:
+Uso:
+En consola ejecutar: perl code.pl host ports
+Por ejemplo: perl code.pl brianstanley.com.ar 20-53
+##Escaneara del host brianstanley.com.ar los puertos desde el 20 hasta el 53
+perl code.pl brianstanley.com.ar 20,53
+## Escaneara solo el puerto 20 y el puerto 53
+perl code.pl brianstanley.com.ar -
+##Escaneara los puertos por defecto desde el 20 hasta el puerto 1000 inclusive.
+
+--------------------------
+
+Author: Brian Stanley
+-----------------------
+Use
