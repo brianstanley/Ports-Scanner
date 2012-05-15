@@ -15,4 +15,11 @@ perl code.pl brianstanley.com.ar -
 
 Author: Brian Stanley
 -----------------------
-Use
+Use:
+In a shell execute: perl code.pl host ports
+For example: perl code.pl brianstanley.com.ar 20-53
+##Will scan from brianstanley.com.ar  the ports 20 to 53
+perl code.pl brianstanley.com.ar 20,53
+## Will scan just the 20 port and the 53 port
+perl code.pl brianstanley.com.ar -
+##Will scan all the ports from brianstanley.com.ar, from 20 to 1000
